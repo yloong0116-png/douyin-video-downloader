@@ -1,0 +1,23 @@
+{
+  "name": "douyin-video-downloader",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Modular browser userscript for managing authorized Douyin video downloads",
+  "license": "MIT",
+  "author": "YG",
+  "scripts": {
+    "build": "node build.js",
+    "test": "node --test tests/arbiter.test.js tests/preferences.test.js tests/downloader.test.js tests/build.test.js",
+    "test:build": "node build.js && node --test tests/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yloong0116-png/douyin-video-downloader.git"
+  },
+  "keywords": [
+    "userscript",
+    "douyin",
+    "tampermonkey",
+    "downloader"
+  ]
+}
