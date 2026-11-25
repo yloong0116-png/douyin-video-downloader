@@ -6,6 +6,10 @@
 
 > 第三方工具，与抖音官方无任何隶属或合作关系。请遵守平台规则与内容权利人的授权范围。
 
+### [⬇ 点此一键安装](https://github.com/yloong0116-png/douyin-video-downloader/raw/main/dist/douyin-video-downloader.user.js)
+
+> 需要先装 Tampermonkey 或 Violentmonkey；点开后会由管理器接管安装。
+
 ## 功能
 
 - 六类资源可勾选：视频/图文、背景音乐、视频封面、音乐封面、作者头像、视频文案
@@ -24,10 +28,12 @@
 
 ## 安装
 
-1. 安装 [Tampermonkey](https://www.tampermonkey.net/)（或 Violentmonkey）
-2. 打开本仓库的 `dist/douyin-video-downloader.user.js`
-3. 点「Raw」，管理器会弹出安装页 → 确认安装
-4. 打开 https://www.douyin.com/ ，右下角会出现 **⬇** 按钮
+1. 先装 [Tampermonkey](https://www.tampermonkey.net/)（或 [Violentmonkey](https://violentmonkey.github.io/)）
+2. 点下面这个直链，管理器会自动弹出安装页：
+
+   https://github.com/yloong0116-png/douyin-video-downloader/raw/main/dist/douyin-video-downloader.user.js
+
+3. 确认安装 → 打开 https://www.douyin.com/ ，右下角出现 **⬇** 按钮即为成功
 
 详细步骤见 [docs/INSTALL.md](docs/INSTALL.md)。
 
