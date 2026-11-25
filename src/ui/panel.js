@@ -3,6 +3,9 @@
   'use strict';
   var DVD = global.DVD = global.DVD || {};
   var btn = null, panel = null, settings = null, snap = null;
+  var prefs = DVD.storage.load();
+  var normalize = DVD.storage.normalize;
+  var DEFAULTS = DVD.storage.DEFAULTS;
   var OPTS = [
     { k: 'media', label: '视频 / 图文' },
     { k: 'music', label: '背景音乐' },
