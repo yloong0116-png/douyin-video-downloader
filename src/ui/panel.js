@@ -248,7 +248,7 @@
 
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', mount, { once: true });
   else mount();
-})();
+
 
   DVD.ui = { mount: mount, openPanel: openPanel };
 })(window);

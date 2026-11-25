@@ -2,7 +2,7 @@
 // @name         Douyin Video Downloader
 // @name:zh-CN   抖音视频下载器
 // @namespace    https://github.com/yloong0116-png/douyin-video-downloader
-// @version      0.1.0
+// @version      0.1.1
 // @description  Save authorized Douyin videos, images, music, covers, avatars and captions
 // @author       YG
 // @license      MIT
@@ -708,7 +708,7 @@
 
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', mount, { once: true });
   else mount();
-})();
+
 
   DVD.ui = { mount: mount, openPanel: openPanel };
 })(window);
